@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_greenhouse_data">
+
+    <fragment
+        android:id="@+id/nav_my_account"
+        android:name="meea.licence.greeny.client_ui.ui.my_account.MyAccountFragment"
+        android:label="@string/menu_my_account"
+        tools:layout="@layout/fragment_my_account">
+        <action
+            android:id="@+id/action_myAccountFragment_to_changePasswordFragment"
+            app:destination="@id/fragment_change_password" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_change_password"
+        android:name="meea.licence.greeny.client_ui.ui.change_password.ChangePasswordFragment"
+        android:label="@string/change_password"
+        tools:layout="@layout/fragment_change_password" />
+
+    <fragment
+        android:id="@+id/nav_my_greenhouses"
+        android:name="meea.licence.greeny.client_ui.ui.my_greenhouses.MyGreenhousesFragment"
+        android:label="@string/menu_my_greenhouses"
+        tools:layout="@layout/fragment_my_greenhouses" />
+
+    <fragment
+        android:id="@+id/nav_greenhouse_data"
+        android:name="meea.licence.greeny.client_ui.ui.greenhouse_data.GreenhouseDataFragment"
+        android:label="@string/menu_greenhouse_data"
+        tools:layout="@layout/fragment_greenhouse_data" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="meea.licence.greeny.client_ui.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

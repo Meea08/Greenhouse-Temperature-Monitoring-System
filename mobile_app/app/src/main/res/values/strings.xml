@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Greeny</string>
+    <string name="empty_field">Fields cannot be empty</string>
+    <string name="invalid_credentials">Wrong username or password</string>
+    <string name="empty_string"> </string>
+    <string name="title_activity_main_client">MainClientActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_my_account">My Account</string>
+    <string name="menu_my_greenhouses">My Greenhouses</string>
+    <string name="menu_greenhouse_data">Greenhouse Data</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="enter_username">Enter your username</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="update_data">Update data</string>
+    <string name="change_password">Change Password</string>
+    <string name="first_name">First Name</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="last_name">Last name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="old_password">Old password</string>
+    <string name="enter_old_password">Enter old password</string>
+    <string name="new_password">New password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="enter_new_password_again">Enter new password again</string>
+    <string name="submit">Submit</string>
+    <string name="invalid_token">Invalid Token</string>
+    <string name="unknown_role">Unknown role</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="log_in">Log In</string>
+
+    <string-array name="visualization_interval_array">
+        <item>Hourly</item>
+        <item>Daily</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <string-array name="visualization_data_array">
+        <item>Temperature</item>
+        <item>Humidity</item>
+    </string-array>
+
+    <string-array name="greenhouse_array">
+        <item>Greenhouse 1</item>
+        <item>Greenhouse 2</item>
+        <item>Greenhouse 3</item>
+        <item>Greenhouse 4</item>
+        <item>Greenhouse 5</item>
+        <item>Greenhouse 6</item>
+    </string-array>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="enter_your_password_again">Enter your password again</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="passwords_do_not_match">Passwords do not match.</string>
+    <string name="fields_cannot_be_empty">Fields cannot be empty.</string>
+    <string name="greenhouse_name">Greenhouse Name</string>
+    <string name="location">Location</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_greenhouse">Delete greenhouse</string>
+    <string name="active">active</string>
+
+    <string-array name="time_units">
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+    </string-array>
+</resources>

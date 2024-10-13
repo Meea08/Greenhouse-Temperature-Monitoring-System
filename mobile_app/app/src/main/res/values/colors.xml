@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="error">#FF0000</color>
+
+    <!--    green nuances-->
+    <color name="light_green">#a6e789</color>
+    <color name="green">#04dc84</color>
+    <color name="dark_green">#00cc75</color>
+
+    <!--    blue nuances-->
+    <color name="light_blueish">#65c5b8</color>
+    <color name="blueish">#01aa95</color>
+    <color name="dark_blueish">#1b9a87</color>
+
+    <!--    red for delete button-->
+    <color name="delete_red">#FF5733</color>
+</resources>
